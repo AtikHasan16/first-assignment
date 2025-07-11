@@ -272,3 +272,46 @@ main {
 }
 
 /* The footer section starts from here */
+
+
+.footer-section {
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 100px 0 0 0;
+}
+
+.footer-logo {
+    text-align: center;
+
+
+}
+
+.footer-logo a {
+    font-size: 100px;
+    font-weight: 1000;
+    color: #4E47FF;
+    margin: 0;
+    text-decoration: none;
+}
+
+.footer-description {
+    font-size: 20px;
+    color: #8987A1;
+    text-align: center;
+    margin: auto 400px;
+}
+
+.footer-zone {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    opacity: 50%;
+    margin: auto 500px;
+}
+
+.footer-zone a {
+    text-decoration: none;
+    color: #252432;
+}
