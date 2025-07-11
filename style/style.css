@@ -71,8 +71,46 @@ nav .first-logo {
     font-weight: 900;
 }
 
+/*  This is the main section */
+
+main {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
 /* The Action section starts from here */
-/* The Productive section starts from here */
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    align-items: center;
+    margin: 150px 0;
+
+}
+
+.action-primary {
+    padding: 60px 0;
+}
+
+.action-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.action-description {
+    font-size: 25px;
+    color: #252432;
+    opacity: 50%;
+    font-weight: normal;
+}
+
+.action img {
+    border-radius: 50px;
+    border: none;
+}
+
+/* The Productive user section starts from here */
 /* The Review section starts from here */
 /* The Subscription section starts from here */
 /* The newsletter section starts from here */
