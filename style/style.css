@@ -151,6 +151,60 @@ main {
 }
 
 /* The Review section starts from here */
+
+.review {
+    margin: 200px 0;
+}
+
+.review-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.review-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.review-box {
+    background-color: #ebebeb;
+    padding: 25px;
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.star-container {
+    display: flex;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar-title {
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.avatar p {
+    font-size: 15px;
+    font-weight: normal;
+    opacity: 70%;
+}
+
 /* The Subscription section starts from here */
 /* The newsletter section starts from here */
 /* The footer section starts from here */
