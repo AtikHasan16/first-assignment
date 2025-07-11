@@ -237,4 +237,38 @@ main {
 }
 
 /* The newsletter section starts from here */
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 200px 0;
+
+}
+
+.news-title h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.news-form label {
+    display: block;
+}
+
+.news-form input[type="email"],
+.news-form input[type="text"] {
+    border-radius: 10px;
+    height: 70px;
+    width: 90%;
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.get-button {
+    width: 100%;
+
+}
+
 /* The footer section starts from here */
